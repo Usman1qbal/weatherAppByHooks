@@ -117,4 +117,7 @@ return (
   );
 });
 
-export default LowerSection;
+export default React.memo(LowerSection,(prevProps, nextProps) =>
+{
+  return prevProps.dayTemp === nextProps.dayTemp
+});
