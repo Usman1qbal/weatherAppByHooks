@@ -1,0 +1,336 @@
+@media only screen  and (max-width: 768px) 
+{
+
+  .upperGrid
+  {
+    margin-top: -40px;
+    color: #878787 ;
+    margin-left: 3vw;
+    font-family: arial,sans-serif;
+  }
+
+  #cityName
+  {
+    font-size: x-large !important;
+
+  }
+  #cityDay
+  {
+    font-size: medium !important;
+    margin-top: -20px;
+  }
+  #cityStatus
+  {
+    font-size: medium !important;
+
+    margin-top: -15px;
+  }
+
+  .middleGrid
+{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 1fr;
+    margin-left: 1vw;
+    margin-top: -1vw;
+}
+
+.middleImgDiv img
+{
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-left: -19px;
+    padding-left: 15px;
+    padding-right:  15px;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+#temperature
+{
+  font-size: 60px;
+  margin-top: -4px;
+}
+
+.temperatureType
+{
+    color: #878787 ;
+    font: 16px arial,helvetica,sans-serif;
+    float: left;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-left: -7px;
+}
+
+.showDetail
+{
+    color: #878787;
+    float: right;
+    font-size: 15px;
+    text-decoration: bold;
+    padding-left: 103px;
+    line-height: 8px;
+    padding-top: 2px;
+    min-width: 43%;
+
+}
+.lowerGrid
+{
+    display: grid;
+    grid-template-columns: repeat(5,13vw);
+    grid-column-gap: 34px;
+    margin-left: 30px;
+    margin-top: 1px;
+    align-items: center;
+    justify-items: center;
+    color: #878787 ;
+    font-family: Arial;
+    font-size: 15px;
+}
+.weatherPanelHeading
+{
+  margin-top: 20px;
+  line-height: 15px;
+  font-size: medium;
+  text-align: center;
+}
+
+.graphType
+{
+  display: grid;
+  grid-template-columns: repeat(3,90px);
+  height: 23px;
+  overflow: hidden;
+  padding: 15px 0 9px;
+  margin-left: 375px;
+  margin-top: -19px;
+  font: 16px arial,helvetica,sans-serif;
+
+}
+
+.graphPanel
+{
+  border-radius: 2px;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  height: 27px;
+  line-height: 27px;
+}
+
+.min
+{
+    text-decoration: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+.lowerSection
+{
+  padding: 20px 16px 24px 16px;
+  margin-left: -15px;
+  margin-right: -20px;
+  margin-top: 10px;
+}
+.detailSection
+{
+  border: 1px solid #dfe1e5;
+  width: 700px;
+  height: 540px;
+  margin-left: 30px;
+  border-radius: 1em;
+}
+.Chart
+{
+  margin-left: 10px;
+  margin-top:2px;
+  width: 680px;
+  height: 176px;
+  cursor: pointer;
+  fill:"#b5b5b5";
+  font-family: arial,sans-serif;
+  font-size: small;
+
+}
+}
+
+@media only screen and (min-width: 769px) 
+{
+
+  .upperGrid
+  {
+    margin-top: -40px;
+    color: #878787 ;
+    margin-left: 1vw;
+    font-family: arial,sans-serif;
+  }
+
+  #cityName
+  {
+    font-size: x-large !important;
+
+  }
+  #cityDay
+  {
+    font-size: medium !important;
+    margin-top: -20px;
+  }
+  #cityStatus
+  {
+    font-size: medium !important;
+
+    margin-top: -15px;
+  }
+
+  .middleGrid
+{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 1fr;
+    margin-left: 1vw;
+    margin-top: -1vw;
+}
+
+.middleImgDiv img
+{
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-left: -19px;
+    padding-left: 15px;
+    padding-right:  15px;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+#temperature
+{
+  font-size: 60px;
+  margin-top: 7px;
+}
+
+.temperatureType
+{
+    color: #878787 ;
+    font: 16px arial,helvetica,sans-serif;
+    float: left;
+    font-size: 16px;
+    margin-top: 26px;
+    margin-left: -7px;
+}
+
+.showDetail
+{
+    color: #878787;
+    float: right;
+    font-size: 18px;
+    text-decoration: bold;
+    padding-left: 103px;
+    line-height: 8px;
+    padding-top: 2px;
+    min-width: 43%;
+
+}
+.lowerGrid
+{
+    display: grid;
+    grid-template-columns: repeat(5,6vw);
+    grid-column-gap: 34px;
+    margin-left: 0.0.5vw;
+    margin-top: -25px;
+    align-items: center;
+    justify-items: center;
+    color: #878787 ;
+    font-family: Arial;
+    font-size: 1.1vw;
+}
+.weatherPanelHeading
+{
+  margin-top: 30px;
+  line-height: 15px;
+  font-size: medium;
+  text-align: center;
+}
+
+.graphType
+{
+  display: grid;
+  grid-template-columns: repeat(3,90px);
+  height: 23px;
+  overflow: hidden;
+  padding: 15px 0 9px;
+  margin-left: 375px;
+  margin-top: -19px;
+  font: 16px arial,helvetica,sans-serif;
+
+}
+
+.graphPanel
+{
+  border-radius: 2px;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  height: 27px;
+  line-height: 27px;
+}
+
+.tempLabel
+{
+  font-size: medium;
+  margin-left: 10px;
+
+}
+.min
+{
+    text-decoration: bold;
+    color: black;
+}
+
+.lowerSection
+{
+  padding: 20px 16px 24px 16px;
+  margin-left: -15px;
+  margin-right: -20px;
+  margin-top: 10px;
+}
+.detailSection
+{
+  border: 1px solid #dfe1e5;
+  width: 700px;
+  height: 540px;
+  margin-left: 340px;
+  border-radius: 1em;
+  visibility: hidden;
+}
+.Chart
+{
+  margin-left: 10px;
+  margin-top:6px;
+  width: 680px;
+  height: 176px;
+  cursor: pointer;
+  fill:"#b5b5b5";
+  font-family: arial,sans-serif;
+  font-size: small;
+
+}
+}
+ 
